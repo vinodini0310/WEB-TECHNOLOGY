@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*.flex div */
+        .flex > div{       
+          border: 2px solid red;
+            margin: 2%;
+            padding: 2px;
+            background-color: skyblue;
+            font-size: 90px;
+        }
+        .flex{
+            height:800px;
+            display: flex;
+             /*row-reverse,row,column,column-reverse*/
+             flex-direction:row;
+             /*flex-start,flex-end,space-around,center,space-between,space-evenly*/
+             justify-content: /*last baseline */ space-evenly;
+             /*wrap,nowrap,wrap-reverse*/
+             flex-wrap: wrap;
+             /* flex-start,flex-end,center,base-line*/
+            /* align-items:center,
+             flex-start,flex-end,center,space-around,space-betwwen*/
+             align-content: stretch;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="flex">
+<div>a</div>
+<div>b</div>
+<div>c</div>
+<div>d</div>
+<div>a</div>
+<div>b</div>
+<div>c</div>
+<div>d</div>
+<div>a</div>
+<div>b</div>
+<div>c</div>
+<div>d</div>
+<div>a</div>
+<div>b</div>
+<div>c</div>
+<div>d</div>
+<div>a</div>
+<div>b</div>
+<div>c</div>
+<div>d</div>
+<div>a</div>
+<div>b</div>
+<div>c</div>
+<div>d</div>
+
+
+</div>
+
+
+
+</div>
+    
+</body>
+</html>
